@@ -1,0 +1,43 @@
+html {
+    background-color: #CFF;
+}
+body {
+    background-color: #00FF99;
+    margin: 0px 200px auto;
+    border: medium solid black;
+}
+header {
+    background-color: #006600;
+    border: thick solid #006600;
+    margin-top: 0px;
+    color: white;
+}
+header h2 {
+    text-align: center;
+    font-size: 30px;
+}
+body > h2 {
+    color: red;
+    text-align: center;
+    vertical-align: center;
+    font-size: 75px;
+}
+nav table{
+    background-color: whitesmoke;
+    padding: 10px 0px;
+    border-spacing: 132px 0px;
+    border: 2px solid black;
+}
+nav table tr th  {
+    color: white;
+}
+nav table tr th a:hover {
+    color: darkred;
+}
+article div.info {
+    position: relative;
+    left: 250px;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

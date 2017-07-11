@@ -1,0 +1,41 @@
+html {
+    background-color: #CFF;
+}
+body {
+    background-color: #00FF99;
+    margin: 0px 200px auto;
+    border: medium solid black;
+}
+header {
+    background-color: #006600;
+    border: thick solid #006600;
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+}
+nav table{
+    background-color: whitesmoke;
+    padding: 10px 0px;
+    border-spacing: 132px 0px;
+    border: 2px solid black;
+}
+nav table tr th  {
+    color: white;
+}
+nav table tr th a:hover {
+    color: darkred;
+}
+form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    left: 250px;
+}
+form input.text {
+    height: 45px;
+    border-spacing: 10px;
+}
+form input.button {
+    position: relative;
+    left: 75px;
+}

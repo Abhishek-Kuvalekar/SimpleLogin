@@ -1,0 +1,32 @@
+html {
+    background-color: #CFF;
+}
+body {
+    background-color: #00FF99;
+    margin: 0px 200px auto;
+    border: medium solid black;
+}
+header {
+    background-color: #006600;
+    border: thick solid #006600;
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+}
+nav table{
+    background-color: whitesmoke;
+    padding: 10px 0px;
+    border-spacing: 132px 0px;
+    border: 2px solid black;
+}
+nav table tr th  {
+    color: white;
+}
+nav table tr th a:hover {
+    color: darkred;
+}
+div.other {
+    padding-top: 30px;
+    position: relative;
+    left: 300px;
+}

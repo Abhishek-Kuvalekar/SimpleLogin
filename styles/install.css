@@ -1,0 +1,29 @@
+html {
+    background-color: aliceblue;   
+}
+h2 {
+    background-color: #003399;
+    border: thick solid #003399;
+    color: white;
+    text-align: center;
+}
+body {
+    margin-top: 150px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border: thin solid black;
+    background: -moz-linear-gradient(top, #b8e1fc 0%, #a9d2f3 10%, #90bae4 25%, #90bcea 37%, #90bff0 50%, #6ba8e5 51%, #a2daf5 83%, #bdf3fd 100%);
+}
+form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    left: 100px;
+}
+input.info {
+    width: 300px;
+}
+input.button {
+    position: relative;
+    left: 100px;
+}

@@ -1,0 +1,29 @@
+html {
+    background-color: aliceblue;
+}
+header {
+    background-color: #003399;
+    border: thick solid #003399;
+    margin-top: 0px;
+    color: white;
+}
+header h2 {
+    position: relative;
+    left: 50px; 
+}
+header div.login_form {
+    position: fixed;
+    left: 675px;
+    top: 33px;
+}
+section {
+    position: fixed;
+    left: 675px;
+    top: 100px;
+}
+form.signup input.text {
+    height: 35px;
+}
+form.signup #email, #password {
+    width: 375px;
+}
