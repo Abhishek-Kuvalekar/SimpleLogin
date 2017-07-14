@@ -25,9 +25,9 @@
             <h2>Log In </h2> 
             <div class = "login_form">
                 <form action = "scripts/login.php" method = "post" class = "login">
-                    Email: <input type = "email" name = "login_email">
-                    Password: <input type = "password" name = "login_password"> 
-                    <input type = "submit" value = "Log In">
+                    Email: <input type = "email" name = "login_email" class = "text">
+                    Password: <input type = "password" name = "login_password" class = "text"> 
+                    <input type = "submit" value = "Log In" class = "button">
                 </form>
             </div>
         </header>
