@@ -16,6 +16,12 @@ header div.login_form {
     left: 675px;
     top: 33px;
 }
+header div.login_form input.text {
+    width: 150px;
+}
+header div.login_form input.button {
+    width: 70px;
+}
 section {
     position: fixed;
     left: 675px;
