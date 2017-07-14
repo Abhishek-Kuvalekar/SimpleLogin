@@ -7,12 +7,12 @@
         <title>Profile Settings</title>
         <script type = "text/javascript">
             function checkPass() {
-                document.write("hello");
-                document.write(document.forms["myForm"]["firstname"].value);
+                //document.write("hello");
+                //document.write(document.forms["myForm"]["firstname"].value);
                 var new_pass = document.forms["myForm"]["new_password"].value;
                 var confirmed_pass = document.forms["myForm"]["confirmed_password"].value;
-                document.write(new_pass);
-                document.write(confirmed_pass);
+                //document.write(new_pass);
+                //document.write(confirmed_pass);
                 if(new_pass == confirmed_pass) {
                     return true;
                 }
@@ -70,7 +70,7 @@
                 die("Cannot fetch data from database: ".mysqli_error($conn));
             }
             $details = mysqli_fetch_assoc($result);
-            $line = "<form action = '"."success.php"."' name = '"."myForm"."' method = '"."post"."'>"."<br />"."Name: "."<input type = '"."text"."' value = '".$details["firstname"]."' name = '"."firstname"."' placeholder = '"."firstname"."' class = '"."text"."'>"."<input type = '"."text"."' value = '".$details["lastname"]."' name = '"."lastname"."' placeholder = '"."lastname"."' class = '"."text"."'><br />";
+            $line = "<form action = '"."success.php"."' name = '"."myForm"."' method = '"."post"."' onsubmit = '"."return(checkPass())"."'>"."<br />"."Name: "."<input type = '"."text"."' value = '".$details["firstname"]."' name = '"."firstname"."' placeholder = '"."firstname"."' class = '"."text"."'>"."<input type = '"."text"."' value = '".$details["lastname"]."' name = '"."lastname"."' placeholder = '"."lastname"."' class = '"."text"."'><br />";
             echo $line;
             $line = "E-mail: "."<input type = '"."email"."' value = '".$details["email"]."' name = '"."email"."' placeholder = '"."email"."' id = '"."email"."' class = '"."text"."'><br />";
             echo $line;
