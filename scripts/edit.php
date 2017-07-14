@@ -7,12 +7,8 @@
         <title>Profile Settings</title>
         <script type = "text/javascript">
             function checkPass() {
-                //document.write("hello");
-                //document.write(document.forms["myForm"]["firstname"].value);
                 var new_pass = document.forms["myForm"]["new_password"].value;
                 var confirmed_pass = document.forms["myForm"]["confirmed_password"].value;
-                //document.write(new_pass);
-                //document.write(confirmed_pass);
                 if(new_pass == confirmed_pass) {
                     return true;
                 }
